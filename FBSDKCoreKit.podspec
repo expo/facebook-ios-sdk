@@ -40,6 +40,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Basics' do |ss|
     ss.source_files = 'Sources/FBSDKCoreKit_Basics/**/*.{h,m}'
+    ss.public_header_files = 'Sources/FBSDKCoreKit_Basics/**/*.h'
     ss.private_header_files = 'Sources/FBSDKCoreKit_Basics/**/*+Internal.h'
     ss.library = 'z'
   end
